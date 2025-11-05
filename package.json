@@ -1,0 +1,48 @@
+{
+  "name"              : "@pooxlabs/hooks",
+  "description"       : "A focused collection of reusable, type-safe React hooks shared across Poox projects. Designed for modularity, teardown safety, and framework-agnostic logic where possible—empowering contributors with ergonomic abstractions and consistent patterns.",
+  "keywords"          : ["hooks","react","reusable","typesafe","modular","composable","declerative","internal","shared","ergonomic","scalable","semantic","teardown","framework","agnostic","lifecycle","state","effect","context","abstraction"],
+  "license"           : "MIT",
+  "homepage"          : "https://poox.io/",
+  "version"           : "0.0.1",
+
+  "author"            : {
+    "name"      : "Selçuk Çukur",
+    "email"     : "hk@selcukcukur.com.tr",
+    "url"       : "https://selcukcukur.com.tr"
+  },
+
+  "bugs"              : {
+    "email"   : "security@poox.io",
+    "url"     : "https://github.com/pooxlabs/poox/issues"
+  },
+
+  "scripts"           : {
+    "lint"  : "eslint src/",
+    "check" : "tsc --noEmit"
+  },
+
+  "dependencies"      : {
+    "react-dom"                : "^19.1.1"
+  },
+
+  "devDependencies"   : {
+    "@pooxlabs/presets"       : "workspace:*",
+    "@types/node"             : "^24.6.0",
+    "@types/react"            : "^19.1.15",
+    "next"                    : "^15.5.4",
+    "react"                   : "^19.1.1",
+    "typescript"              : "^5.9.2"
+  },
+
+  "exports"           : {
+    "."   : "./src/index.ts"
+  },
+  "publishConfig"     : {
+    "access"  : "public"
+  },
+  "repository"        : {
+    "type"  : "git",
+    "url"   : "git+https://github.com/pooxlabs/hooks.git"
+  }
+}
