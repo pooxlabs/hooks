@@ -27,7 +27,7 @@
   },
 
   "devDependencies"   : {
-    "@pooxlabs/presets"       : "workspace:*",
+    "@pooxlabs/presets"       : "^0.0.2",
     "@types/node"             : "^24.6.0",
     "@types/react"            : "^19.1.15",
     "next"                    : "^15.5.4",
